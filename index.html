@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Survey Form</title>
   </head>
   <body>
@@ -16,26 +17,14 @@
       </header>
       <form id="survey-form">
         <div class="form-group">
-          <label id="first-label" for="first-name">First name:</label>
+          <label id="first-label" for="first-name">Name:</label>
           <input
             type="text"
-            name="first"
+            name="name"
             id="name"
             maxlength="25"
             class="form-control"
-            placeholder="Enter your first name"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label id="second-label" for="second-name">Second name:</label>
-          <input
-            type="text"
-            name="second"
-            id="name"
-            class="form-control"
-            placeholder="Enter your second name"
+            placeholder="Enter your name"
             required
           />
         </div>
@@ -59,20 +48,7 @@
         </div>
 
         <div class="form-group">
-          <label id="dropdown" for="dropdown"
-            >What stack do you prefer to work?</label
-          >
-          <input list="OS" name="dropdown" id="dropdown" />
-          <datalist id="OS">
-            <option disabled selected value>Select an option</option>
-            <option>Front-end</option>
-            <option>Back-end</option>
-            <option>Fullstack</option>
-          </datalist>
-        </div>
-
-        <div class="form-group">
-          <p>Would you recommend coding to a friend?</p>
+          <p>What's your level of coding?</p>
           <label>
             <input
               name="user-recommend"
@@ -80,7 +56,7 @@
               type="radio"
               class="input-radio"
               checked
-            />Definitely</label
+            />Bennigner</label
           >
           <label>
             <input
@@ -88,7 +64,7 @@
               value="maybe"
               type="radio"
               class="input-radio"
-            />Maybe</label
+            />Intermediate</label
           >
           <label
             ><input
@@ -96,36 +72,10 @@
               value="not-sure"
               type="radio"
               class="input-radio"
-            />Not sure</label
+            />Expert</label
           >
         </div>
-        <div class="form-group">
-          <p>Check the technologies that you're familiar with:</p>
-          <label
-            ><input
-              type="checkbox"
-              value="html"
-              name="tech"
-              class="input-checkbox"
-            />HTML</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="CSS"
-              name="tech"
-              class="input-checkbox"
-            />CSS</label
-          >
-          <label
-            ><input
-              type="checkbox"
-              value="JavaScript"
-              name="tech"
-              class="input-checkbox"
-            />JavaScript</label
-          >
-        </div>
+
         <div class="form-group">
           <p>Any comments or suggestions?</p>
           <textarea

@@ -15,6 +15,16 @@
   --c-accent: #174e81;
 }
 
+header {
+  height: 75%;
+  text-shadow: 0rem 0 4rem #000000;
+}
+
+header h1 {
+  color: white;
+  font-size: var(--fs-l);
+}
+
 /* global setting */
 body::before {
   content: "";
@@ -48,20 +58,10 @@ form {
   border-radius: 15px;
 }
 
-/* .background-blue {
-  background-color: var(--c-main);
-  filter: blur(150px);
-  z-index: -1;
-  position: absolute;
-  width: 25%;
-  height: 25%;
-  top: 200px;
-  right: 450px;
-} */
-
 .container {
+  margin-block: 10rem;
   display: flex;
-  padding: 10rem;
+  gap: 15rem;
 }
 
 @media screen and (min-width: 400px) {

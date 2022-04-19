@@ -4,13 +4,32 @@
   box-sizing: border-box;
 }
 
+/* global variables */
 :root {
   --fs-l: 3.5rem;
   --fs-m: 2rem;
   --fs-s: 0.8rem;
 
-  --f-color: #444;
-  --f-main: rgb(47, 153, 121);
+  --c-gray: #6c6c6c;
+  --c-main: #67a3e8;
+  --c-accent: #174e81;
+}
+
+/* global setting */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--c-gray);
+  background-image: url(/images/roads.jpg);
+  filter: grayscale(100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body {
@@ -21,10 +40,26 @@ body {
   justify-content: center;
 }
 
+form {
+  background-color: white;
+  z-index: 999;
+}
+
+.background-blue {
+  background-color: var(--c-main);
+  filter: blur(150px);
+  z-index: -1;
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 200px;
+  right: 450px;
+}
+
 .container {
   display: flex;
-  background-color: #fffff;
-  padding: 5rem;
-  border: rgb(47, 153, 121) solid;
-  border-radius: 1rem;
+  padding: 10rem;
+}
+
+@media screen and (min-width: 400px) {
 }

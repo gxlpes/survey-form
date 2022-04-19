@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --fs-l: 3.5rem;
+  --fs-m: 2rem;
+  --fs-s: 0.8rem;
+
+  --f-color: #444;
+  --f-main: rgb(47, 153, 121);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  background-color: #fffff;
+  padding: 5rem;
+  border: rgb(47, 153, 121) solid;
+  border-radius: 1rem;
+}

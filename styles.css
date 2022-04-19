@@ -6,8 +6,9 @@
 
 /* global variables */
 :root {
+  --fs-xl: 4.8rem;
   --fs-l: 3.5rem;
-  --fs-m: 2rem;
+  --fs-m: 1.5rem;
   --fs-s: 0.8rem;
 
   --c-gray: #6c6c6c;
@@ -17,12 +18,23 @@
 
 header {
   height: 75%;
-  text-shadow: 0rem 0 4rem #000000;
+  width: 25%;
+  text-shadow: 0 0 12rem currentColor / 1.2;
+  letter-spacing: -0.05em;
+  text-shadow: 0 0 10rem black, 0 0 9rem black;
 }
 
 header h1 {
   color: white;
   font-size: var(--fs-l);
+  line-height: 1.2;
+}
+
+header span {
+  color: var(--c-main);
+  font-size: var(--fs-xl);
+  line-height: 80px;
+  letter-spacing: -0.05em;
 }
 
 /* global setting */
@@ -43,7 +55,7 @@ body::before {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,6 +73,8 @@ form {
 .container {
   margin-block: 10rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 15rem;
 }
 

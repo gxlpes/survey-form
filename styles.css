@@ -43,7 +43,9 @@ body {
 form {
   background-color: white;
   z-index: 999;
-  box-shadow: 0 0 1rem 0 var(--c-main);
+  box-shadow: 0 0 9rem 0 var(--c-main);
+  padding: 5rem;
+  border-radius: 15px;
 }
 
 /* .background-blue {

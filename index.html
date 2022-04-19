@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Survey Test Form</h1>
+        <p id="description">
+          Survey form created to test my skills with plain CSS/HTML.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="first-label" for="first-name">First name:</label>
+          <input
+            type="text"
+            name="first"
+            id="name"
+            maxlength="25"
+            class="form-control"
+            placeholder="Enter your first name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="second-label" for="second-name">Second name:</label>
+          <input
+            type="text"
+            name="second"
+            id="name"
+            class="form-control"
+            placeholder="Enter your second name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">E-mail:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label id="number-label" for="number">Age (optinonal)</label>
+          <input type="number" name="age" id="number" min="10" max="99"
+          class="form-control" placeholder="Age"
+        </div>
+
+        <div class="form-group">
+          <label id="dropdown" for="dropdown"
+            >What stack do you prefer to work?</label
+          >
+          <input list="OS" name="dropdown" id="dropdown" />
+          <datalist id="OS">
+            <option disabled selected value>Select an option</option>
+            <option>Front-end</option>
+            <option>Back-end</option>
+            <option>Fullstack</option>
+          </datalist>
+        </div>
+
+        <div class="form-group">
+          <p>Would you recommend coding to a friend?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Definitely</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Maybe</label
+          >
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />Not sure</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Check the technologies that you're familiar with:</p>
+          <label
+            ><input
+              type="checkbox"
+              value="html"
+              name="tech"
+              class="input-checkbox"
+            />HTML</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="CSS"
+              name="tech"
+              class="input-checkbox"
+            />CSS</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="JavaScript"
+              name="tech"
+              class="input-checkbox"
+            />JavaScript</label
+          >
+        </div>
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

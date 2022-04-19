@@ -43,9 +43,10 @@ body {
 form {
   background-color: white;
   z-index: 999;
+  box-shadow: 0 0 1rem 0 var(--c-main);
 }
 
-.background-blue {
+/* .background-blue {
   background-color: var(--c-main);
   filter: blur(150px);
   z-index: -1;
@@ -54,7 +55,7 @@ form {
   height: 25%;
   top: 200px;
   right: 450px;
-}
+} */
 
 .container {
   display: flex;

@@ -103,10 +103,8 @@ input {
   box-sizing: border-box;
 }
 
-.box-options {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
+input.input-radio {
+  width: 10%;
 }
 
 textarea {

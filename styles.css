@@ -81,5 +81,10 @@ form {
   gap: 2rem;
 }
 
+.form-group label {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 400px) {
 }

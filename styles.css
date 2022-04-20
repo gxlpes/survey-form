@@ -21,7 +21,7 @@ header {
   width: 25%;
   text-shadow: 0 0 12rem currentColor / 1.2;
   letter-spacing: -0.05em;
-  text-shadow: 0 0 10rem black, 0 0 9rem black;
+  text-shadow: 0 0 12rem black, 0 0 4rem black;
 }
 
 header h1 {
@@ -62,20 +62,23 @@ body {
   justify-content: center;
 }
 
-form {
-  background-color: white;
-  z-index: 999;
-  box-shadow: 0 0 9rem 0 var(--c-main);
-  padding: 5rem;
-  border-radius: 15px;
-}
-
 .container {
   margin-block: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15rem;
+}
+
+form {
+  background-color: white;
+  z-index: 999;
+  box-shadow: 0 0 9rem 0 var(--c-main);
+  padding: 5rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 @media screen and (min-width: 400px) {

@@ -25,6 +25,7 @@ input::-webkit-inner-spin-button {
   --c-lightblack: #ccc;
 }
 
+/* right title */
 header {
   height: 75%;
   width: 25%;
@@ -36,7 +37,7 @@ header {
 header h1 {
   color: white;
   font-size: var(--fs-l);
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 header span {
@@ -92,7 +93,7 @@ body {
 }
 
 .container {
-  margin-block: 3rem;
+  margin-block: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,7 +146,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border: 2px solid var(--c-main);
+  border: 2px solid var(--c-accent);
   border-radius: 4px;
 }
 
@@ -164,6 +165,11 @@ textarea {
   border: 2px solid var(--c-main);
   border-radius: 4px;
   outline: none;
+}
+
+input:focus,
+textarea:focus {
+  color: var(--c-black);
 }
 
 button {

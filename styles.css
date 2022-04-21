@@ -222,3 +222,8 @@ header p {
     position: absolute;
     z-index: 9999;
   }
+
+  input[type="text"],
+input[type="email"] {
+  width: 12rem;
+}

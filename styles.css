@@ -52,6 +52,20 @@ header p {
   line-height: 1.2;
 }
 
+header .symbol1 {
+  color: var(--c-accent);
+  font-size: 6rem;
+  margin-bottom: -3rem;
+}
+
+header .symbol2 {
+  color: var(--c-accent);
+  font-size: 6rem;
+  margin-top: -3rem;
+  margin-right: 2rem;
+  text-align: right;
+}
+
 /* global setting */
 body::before {
   content: "";

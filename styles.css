@@ -77,7 +77,7 @@ body::before {
   width: 100%;
   z-index: -1;
   background: var(--c-gray);
-  background-image: url(/images/roads.JPG);
+  background-image: url(./images/roads.jpg);
   filter: grayscale(100%);
   background-size: cover;
   background-repeat: no-repeat;

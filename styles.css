@@ -102,6 +102,7 @@ body {
 /* form setting */
 form {
   color: var(--c-black);
+  font-weight: 600;
   background-color: white;
   z-index: 999;
   box-shadow: 0 0 9rem 0 var(--c-main);
@@ -160,7 +161,7 @@ input[name="number"] {
 
 input,
 textarea {
-  border: 2px solid var(--c-lightblack);
+  border: 2px solid var(--c-main);
   border-radius: 4px;
   outline: none;
 }

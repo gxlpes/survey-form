@@ -46,6 +46,12 @@ header span {
   letter-spacing: -0.05em;
 }
 
+header p {
+  color: white;
+  font-size: var(--fs-m);
+  line-height: 1.2;
+}
+
 /* global setting */
 body::before {
   content: "";

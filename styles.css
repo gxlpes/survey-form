@@ -160,6 +160,11 @@ input[name="number"] {
   width: 1rem;
 }
 
+input[type="radio"] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
 input,
 textarea {
   border: 2px solid var(--c-main);

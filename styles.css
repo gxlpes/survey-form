@@ -164,6 +164,10 @@ input[type="radio"] {
   margin-block: auto;
 }
 
+input[type="radio"]:hover {
+  cursor: pointer;
+}
+
 input,
 textarea {
   border: 2px solid var(--c-main);
@@ -230,5 +234,9 @@ button:active {
   input[type="text"],
   input[type="email"] {
     width: 100%;
+  }
+
+  form {
+    font-size: 0.9rem;
   }
 }

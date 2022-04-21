@@ -224,6 +224,6 @@ button:active {
 
   input[type="text"],
   input[type="email"] {
-    width: 12rem;
+    width: 100%;
   }
 }

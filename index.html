@@ -8,91 +8,94 @@
     <title>Survey Form</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1 class="symbol1"><</h1>
-        <h1>FOLLOW YOUR <span>OWN PATH</span> WHILE CODING</h1>
-        <p>Let us alert you about our coding courses and updates.</p>
-        <h1 class="symbol2">></h1>
-      </header>
-      <form id="survey-form">
-        <div class="form-group">
-          <label id="first-label" for="first-name">Name:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            maxlength="25"
-            class="form-control"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label id="email-label" for="email">E-mail:</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="form-control"
-            required
-          />
-        </div>
-
-        <div class="form-group">
-          <label id="number-label" for="number">Age</label>
-          <input
-            type="number"
-            name="age"
-            id="number"
-            min="10"
-            max="99"
-            class="form-control"
-          />
-        </div>
-
-        <div class="form-group">
-          <p>What's your level of coding?</p>
-          <div class="box-options">
-            <label class="opt">
-              <input
-                name="user-recommend"
-                value="definitely"
-                type="radio"
-                class="input-radio"
-                checked
-              />Junior</label
-            >
-            <label>
-              <input
-                name="user-recommend"
-                value="maybe"
-                type="radio"
-                class="input-radio"
-              />Intermediate</label
-            >
-            <label
-              ><input
-                name="user-recommend"
-                value="not-sure"
-                type="radio"
-                class="input-radio"
-              />Senior</label
-            >
+    <div class="main-container">
+      <div class="container">
+        <header>
+          <h1 class="symbol1"><</h1>
+          <h1>FOLLOW YOUR <span>OWN PATH</span> WHILE CODING</h1>
+          <p>Let us alert you about our coding courses and updates.</p>
+          <h1 class="symbol2">></h1>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="first-label" for="first-name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              maxlength="25"
+              class="form-control"
+              required
+            />
           </div>
-        </div>
-        <div class="form-group">
-          <p>Any comments or suggestions?</p>
-          <textarea
-            id="comments"
-            class="input-textarea"
-            name="comment"
-          ></textarea>
-        </div>
-        <div class="form-group">
-          <button type="submit">Submit</button>
-        </div>
-      </form>
+
+          <div class="form-group">
+            <label id="email-label" for="email">E-mail:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label id="number-label" for="number">Age</label>
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+            />
+          </div>
+
+          <div class="form-group">
+            <p>What's your level of coding?</p>
+            <div class="box-options">
+              <label class="opt">
+                <input
+                  name="user-recommend"
+                  value="definitely"
+                  type="radio"
+                  class="input-radio"
+                  checked
+                />Junior</label
+              >
+              <label>
+                <input
+                  name="user-recommend"
+                  value="maybe"
+                  type="radio"
+                  class="input-radio"
+                />Intermediate</label
+              >
+              <label
+                ><input
+                  name="user-recommend"
+                  value="not-sure"
+                  type="radio"
+                  class="input-radio"
+                />Senior</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+            ></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <footer>Survey Form created by Guilherme Lopes</footer>
     </div>
   </body>
 </html>

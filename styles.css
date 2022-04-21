@@ -210,6 +210,13 @@ header span:hover {
   cursor: pointer;
 }
 
+footer {
+  margin-top: -2rem;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
+
 @media screen and (max-width: 800px) {
   .container {
     display: flex;
@@ -234,7 +241,7 @@ header span:hover {
 
   form {
     width: 80%;
-    margin-top: 90rem;
+    margin-top: 110rem;
     position: absolute;
     z-index: 9999;
   }

@@ -247,4 +247,8 @@ header span:hover {
   form {
     font-size: 0.9rem;
   }
+
+  input[type="radio"] {
+    margin-block: 3px;
+  }
 }

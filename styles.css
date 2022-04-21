@@ -195,7 +195,6 @@ button:active {
 }
 
 @media screen and (max-width: 800px) {
-
   .container {
     display: flex;
     align-items: center;
@@ -212,9 +211,9 @@ button:active {
     text-shadow: 0 0 12rem black, 0 0 4rem black;
   }
 
-header p {
-  width: 85%;
-}
+  header p {
+    width: 85%;
+  }
 
   form {
     width: 80%;
@@ -224,6 +223,7 @@ header p {
   }
 
   input[type="text"],
-input[type="email"] {
-  width: 12rem;
+  input[type="email"] {
+    width: 12rem;
+  }
 }

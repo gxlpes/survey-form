@@ -195,8 +195,33 @@ button:active {
 }
 
 @media screen and (max-width: 800px) {
-  form {
-    position: fixed;
-    width: 20rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 60rem;
   }
+
+  header {
+    height: 75%;
+    width: 50%;
+    margin: auto;
+    letter-spacing: -0.05em;
+    text-shadow: 0 0 12rem black, 0 0 4rem black;
+  }
+
+header p {
+  width: 85%;
 }
+
+  form {
+    width: 80%;
+    margin-top: 110rem;
+    position: absolute;
+    z-index: 9999;
+
+  }
+
+

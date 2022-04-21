@@ -44,6 +44,7 @@ header span {
   font-size: var(--fs-xl);
   line-height: 80px;
   letter-spacing: -0.05em;
+  transition: all 0.1s ease-in-out;
 }
 
 header p {
@@ -57,6 +58,7 @@ header .symbol1 {
   color: var(--c-accent);
   font-size: 6rem;
   margin-bottom: -3rem;
+  transition: all 0.2s ease-in-out;
 }
 
 header .symbol2 {
@@ -65,6 +67,7 @@ header .symbol2 {
   margin-top: -3rem;
   margin-right: 2rem;
   text-align: right;
+  transition: all 0.2s ease-in-out;
 }
 
 /* global setting */
@@ -199,6 +202,11 @@ button:hover {
 
 button:active {
   transform: scale(0.5);
+  cursor: pointer;
+}
+
+header span:hover {
+  color: var(--c-accent);
   cursor: pointer;
 }
 

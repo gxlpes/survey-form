@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+/* remove arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* global variables */
 :root {
   --fs-xl: 4.8rem;
@@ -14,6 +21,8 @@
   --c-gray: #6c6c6c;
   --c-main: #67a3e8;
   --c-accent: #174e81;
+  --c-black: #4a4a4a;
+  --c-lightblack: #ccc;
 }
 
 header {
@@ -72,6 +81,7 @@ body {
 
 /* form setting */
 form {
+  color: var(--c-black);
   background-color: white;
   z-index: 999;
   box-shadow: 0 0 9rem 0 var(--c-main);
@@ -85,14 +95,14 @@ form {
 .form-group label {
   display: flex;
   flex-direction: row;
-  text-align: left;
 }
 
 input {
   width: 100%;
-  padding: 0.5rem; 2rem;
+  padding: 0.5rem 2rem;
   margin: 8px 0;
   box-sizing: border-box;
+  color: var(--c-black);
 }
 
 input.input-radio {
@@ -108,11 +118,19 @@ textarea {
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
   resize: none;
   font-family: "Poppins", sans-serif;
+}
+
+input placeholder {
+  text-align: left;
+  color: purple;
+}
+
+input,
+textarea {
+  border: 2px solid var(--c-lightblack);
+  border-radius: 4px;
 }
 
 button {

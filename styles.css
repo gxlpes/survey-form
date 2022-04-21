@@ -107,6 +107,7 @@ input {
 
 input.input-radio {
   width: 10%;
+  filter: grayscale(1);
 }
 
 .box-options {
@@ -122,15 +123,22 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
-input placeholder {
-  text-align: left;
-  color: purple;
-}
-
 input,
 textarea {
   border: 2px solid var(--c-lightblack);
   border-radius: 4px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid var(--c-main);
+  border-radius: 4px;
+}
+
+input [name="number"] {
+  color: purple;
+  width: 2rem;
 }
 
 button {
@@ -138,6 +146,7 @@ button {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   border: none;
+  margin-top: 1rem;
   padding: 12px 25px;
   border-radius: 10px;
   background-color: var(--c-main);

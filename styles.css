@@ -207,7 +207,7 @@ button:active {
   header {
     height: 75%;
     width: 50%;
-    margin: auto;
+    margin-top: -3rem;
     letter-spacing: -0.05em;
     text-shadow: 0 0 12rem black, 0 0 4rem black;
   }
@@ -218,8 +218,7 @@ header p {
 
   form {
     width: 80%;
-    margin-top: 110rem;
+    margin-top: 100rem;
     position: absolute;
     z-index: 9999;
-
   }

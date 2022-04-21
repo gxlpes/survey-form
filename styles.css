@@ -211,7 +211,7 @@ button:active {
   header {
     height: 75%;
     width: 50%;
-    margin-top: -3rem;
+    margin-top: -5rem;
     letter-spacing: -0.05em;
     text-shadow: 0 0 12rem black, 0 0 4rem black;
   }

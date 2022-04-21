@@ -25,11 +25,10 @@ input::-webkit-inner-spin-button {
   --c-lightblack: #ccc;
 }
 
-/* right title */
+/* left title */
 header {
   height: 75%;
   width: 25%;
-  text-shadow: 0 0 12rem currentColor / 1.2;
   letter-spacing: -0.05em;
   text-shadow: 0 0 12rem black, 0 0 4rem black;
 }
@@ -51,6 +50,7 @@ header p {
   color: white;
   font-size: var(--fs-m);
   line-height: 1.2;
+  text-shadow: 0 0 12rem black, 0 0 4rem black;
 }
 
 header .symbol1 {
@@ -194,5 +194,9 @@ button:active {
   cursor: pointer;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 800px) {
+  form {
+    position: fixed;
+    width: 20rem;
+  }
 }

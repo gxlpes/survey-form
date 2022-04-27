@@ -115,6 +115,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  width: clamp(10rem, 100%, 30rem);
 }
 
 .form-group label {

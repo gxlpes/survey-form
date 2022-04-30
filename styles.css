@@ -154,6 +154,7 @@ input:focus,
 textarea:focus {
   border: 2px solid var(--c-accent);
   border-radius: 4px;
+  box-shadow: 0 0 2rem 0 var(--c-main);
 }
 
 input[type="text"],

@@ -39,7 +39,7 @@ header h1 {
   line-height: 1.1;
 }
 
-header span {
+header .title {
   color: var(--c-main);
   font-size: var(--fs-xl);
   line-height: 80px;
@@ -47,11 +47,17 @@ header span {
   transition: all 0.1s ease-in-out;
 }
 
+header .name {
+  color: var(--c-main);
+  font-weight: 500;
+}
+
 header p {
   color: white;
   font-size: var(--fs-m);
   line-height: 1.2;
   text-shadow: 0 0 12rem black, 0 0 4rem black;
+  width: 85%;
 }
 
 header .symbol1 {

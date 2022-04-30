@@ -128,7 +128,7 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   color: var(--c-black);
-  transition: all 0.4 ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 input.input-radio {
@@ -147,7 +147,7 @@ textarea {
   box-sizing: border-box;
   resize: none;
   font-family: "Poppins", sans-serif;
-  transition: all 0.4 ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 input:focus,
@@ -211,7 +211,6 @@ button:active {
 
 header span:hover {
   color: var(--c-accent);
-  cursor: pointer;
 }
 
 footer {

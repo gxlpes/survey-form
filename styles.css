@@ -132,8 +132,8 @@ input {
 }
 
 input.input-radio {
-  width: 10%;
   filter: grayscale(1);
+  margin-right: 0.5rem;
 }
 
 .box-options {
@@ -154,7 +154,7 @@ input:focus,
 textarea:focus {
   border: 2px solid var(--c-accent);
   border-radius: 4px;
-  box-shadow: 0 0 2rem 0 var(--c-main);
+  box-shadow: 0 0 0.8rem 0 var(--c-main);
 }
 
 input[type="text"],

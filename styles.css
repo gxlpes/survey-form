@@ -123,6 +123,10 @@ form {
   flex-direction: row;
 }
 
+.form-group p {
+  margin-block: 0.4rem;
+}
+
 input {
   padding: 0.5rem 1rem;
   margin: 8px 0;
@@ -137,7 +141,7 @@ input.input-radio {
 }
 
 .box-options {
-  margin-block: 0.1rem;
+  margin-top: 2px;
 }
 
 textarea {

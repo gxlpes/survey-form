@@ -24,8 +24,8 @@ input::-webkit-inner-spin-button {
   --c-black: #4a4a4a;
   --c-lightblack: #ccc;
 
-  --nav-load-time: 800ms;
-}
+  --nav-load-time: 1.2s;
+
 
 /* left title */
 header {

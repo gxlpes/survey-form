@@ -23,6 +23,8 @@ input::-webkit-inner-spin-button {
   --c-accent: #174e81;
   --c-black: #4a4a4a;
   --c-lightblack: #ccc;
+
+  --nav-load-time: 800ms;
 }
 
 /* left title */
@@ -37,6 +39,7 @@ header h1 {
   color: white;
   font-size: var(--fs-l);
   line-height: 1.1;
+  animation: nav-load var(--nav-load-time) ease-in-out 200ms;
 }
 
 header .title {
@@ -58,6 +61,7 @@ header p {
   line-height: 1.2;
   text-shadow: 0 0 12rem black, 0 0 4rem black;
   width: 85%;
+  animation: nav-load var(--nav-load-time) ease-in-out 400ms;
 }
 
 header .symbol1 {
@@ -122,15 +126,15 @@ form {
   flex-direction: column;
   gap: 0.4rem;
   width: clamp(10rem, 100%, 30rem);
-  animation: nav-load 0.4s;
+  animation: nav-load 0.4s ease-in-out;
 }
 
 @keyframes nav-load {
   0% {
-    transform: translateY(-100);
+    opacity: 0%;
   }
   100% {
-    transform: translateY(0);
+    opacity: 100%;
   }
 }
 

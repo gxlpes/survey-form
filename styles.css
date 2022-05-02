@@ -74,7 +74,7 @@ header .symbol1 {
 header .symbol2 {
   color: var(--c-accent);
   font-size: 6rem;
-  margin-top: -3rem;
+  margin-top: -3.5rem;
   margin-right: 2rem;
   text-align: right;
   transition: all 0.2s ease-in-out;

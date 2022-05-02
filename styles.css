@@ -122,6 +122,16 @@ form {
   flex-direction: column;
   gap: 0.4rem;
   width: clamp(10rem, 100%, 30rem);
+  animation: nav-load 0.4s;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .form-group label {

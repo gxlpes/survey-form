@@ -25,9 +25,10 @@ input::-webkit-inner-spin-button {
   --c-lightblack: #ccc;
 
   --nav-load-time: 1.2s;
-
+}
 
 /* left title */
+
 header {
   height: 75%;
   width: 25%;

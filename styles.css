@@ -41,6 +41,8 @@ header h1 {
   font-size: var(--fs-l);
   line-height: 1.1;
   animation: nav-load var(--nav-load-time) ease-in-out 200ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 header .title {
@@ -63,6 +65,8 @@ header p {
   text-shadow: 0 0 12rem black, 0 0 4rem black;
   width: 85%;
   animation: nav-load var(--nav-load-time) ease-in-out 400ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 header .symbol1 {
@@ -128,6 +132,8 @@ form {
   gap: 0.4rem;
   width: clamp(10rem, 100%, 30rem);
   animation: nav-load var(--nav-load-time) ease-in-out;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @keyframes nav-load {

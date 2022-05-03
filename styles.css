@@ -24,7 +24,7 @@ input::-webkit-inner-spin-button {
   --c-black: #4a4a4a;
   --c-lightblack: #ccc;
 
-  --nav-load-time: 1.2s;
+  --nav-load-time: 1.5s;
 }
 
 /* left title */
@@ -127,15 +127,15 @@ form {
   flex-direction: column;
   gap: 0.4rem;
   width: clamp(10rem, 100%, 30rem);
-  animation: nav-load 0.4s ease-in-out;
+  animation: nav-load var(--nav-load-time) ease-in-out;
 }
 
 @keyframes nav-load {
   0% {
-    opacity: 0%;
+    opacity: 0;
   }
   100% {
-    opacity: 100%;
+    opacity: 100;
   }
 }
 

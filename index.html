@@ -23,7 +23,7 @@
           </p>
           <h1 class="symbol2">></h1>
         </header>
-        <form id="survey-form">
+        <form id="survey-form" method="post">
           <div class="form-group">
             <label id="first-label" for="first-name">Name:</label>
             <input type="text" name="name" id="name" maxlength="25" class="form-control" required />
@@ -42,7 +42,9 @@
           <div class="form-group">
             <p>What's your level of coding?</p>
             <div class="box-options">
-              <label class="opt"> <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Junior</label>
+              <label class="opt">
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Junior</label
+              >
               <label> <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Intermediate</label>
               <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Senior</label>
             </div>
